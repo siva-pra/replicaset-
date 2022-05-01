@@ -10,5 +10,5 @@ spec:
       targetPort: 8080
       protocol: TCP
   selector:
-    app: jenkins
+    app: jenkins 
   type: LoadBalancer
